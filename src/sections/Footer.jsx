@@ -5,18 +5,23 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="flex flex-col justify-center">
-          <p>Terms & Conditions</p>
+          <p>Nice to Meet You!</p>
         </div>
         <div className="socials">
           {socialImgs.map((socialImg, index) => (
-            <div key={index} className="icon">
+            <a
+              target="_blank"
+              href={socialImg.link}
+              key={index}
+              className="icon"
+            >
               <img src={socialImg.imgPath} alt="social icon" />
-            </div>
+            </a>
           ))}
         </div>
         <div className="flex flex-col justify-center">
           <p className="text-center md:text-end">
-            © {new Date().getFullYear()} Adrian Hajdin. All rights reserved.
+            © {new Date().getFullYear()} Aakamsh PM. All rights reserved.
           </p>
         </div>
       </div>

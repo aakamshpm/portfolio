@@ -51,12 +51,12 @@ const Showcase = () => {
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                Empowering Farmers with Direct Market Access through CropChain
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                A full-stack platform built with React, Redux, Express, and
+                MongoDB to connect farmers directly with consumers and
+                retailers.
               </p>
             </div>
           </div>
@@ -69,14 +69,18 @@ const Showcase = () => {
                   alt="Library Management Platform"
                 />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>Student Concession Managment App</h2>
+              <p className="text-white-50">
+                A full-stack web application designed to digitize and streamline
+                student concession card applications.
+              </p>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src="/images/project3.png" alt="YC Directory App" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>Concurso '24</h2>
             </div>
           </div>
         </div>

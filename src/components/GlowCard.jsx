@@ -1,6 +1,6 @@
 import { useRef } from "react";
 
-const GlowCard = ({ card, children, index }) => {
+const GlowCard = ({ card, index }) => {
   const cardRefs = useRef([]);
 
   const handleMouseMove = (index) => (e) => {
@@ -28,7 +28,6 @@ const GlowCard = ({ card, children, index }) => {
       <div className="my-5">
         <p className="text-white-50 text-lg">{card.review}</p>
       </div>
-      {children}
     </div>
   );
 };

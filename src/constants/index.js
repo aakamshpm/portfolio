@@ -14,14 +14,32 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
+  {
+    text: "Ideas",
+    imgPath: import.meta.env.BASE_URL + "/images/ideas.svg",
+  },
+  {
+    text: "Concepts",
+    imgPath: import.meta.env.BASE_URL + "/images/concepts.svg",
+  },
+  {
+    text: "Designs",
+    imgPath: import.meta.env.BASE_URL + "/images/designs.svg",
+  },
+  { text: "Code", imgPath: import.meta.env.BASE_URL + "/images/code.svg" },
+  {
+    text: "Ideas",
+    imgPath: import.meta.env.BASE_URL + "/images/ideas.svg",
+  },
+  {
+    text: "Concepts",
+    imgPath: import.meta.env.BASE_URL + "/images/concepts.svg",
+  },
+  {
+    text: "Designs",
+    imgPath: import.meta.env.BASE_URL + "/images/designs.svg",
+  },
+  { text: "Code", imgPath: import.meta.env.BASE_URL + "/images/code.svg" },
 ];
 
 const counterItems = [
@@ -33,17 +51,17 @@ const counterItems = [
 
 const abilities = [
   {
-    imgPath: "/images/code.png",
+    imgPath: import.meta.env.BASE_URL + "/images/code.png",
     title: "Full Stack Ownership",
     desc: "From UI to backend APIs, I build complete, scalable web apps with clean and maintainable code.",
   },
   {
-    imgPath: "/images/communication.png",
+    imgPath: import.meta.env.BASE_URL + "/images/communication.png",
     title: "Clear Communication",
     desc: "Always keep things transparent—whether it’s progress, blockers, or timelines—so everyone stays aligned.",
   },
   {
-    imgPath: "/images/deadline.png",
+    imgPath: import.meta.env.BASE_URL + "/images/deadline.png",
     title: "Dependable Delivery",
     desc: "I stick to deadlines and deliver production-ready work you can trust, without sacrificing quality.",
   },
@@ -52,54 +70,54 @@ const abilities = [
 const techStackImgs = [
   {
     name: "React Developer",
-    imgPath: "/images/logos/react.png",
+    imgPath: import.meta.env.BASE_URL + "/images/logos/react.png",
   },
   {
     name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
+    imgPath: import.meta.env.BASE_URL + "/images/logos/python.svg",
   },
   {
     name: "Backend Developer",
-    imgPath: "/images/logos/node.png",
+    imgPath: import.meta.env.BASE_URL + "/images/logos/node.png",
   },
   {
     name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
+    imgPath: import.meta.env.BASE_URL + "/images/logos/three.png",
   },
   {
     name: "Project Manager",
-    imgPath: "/images/logos/git.svg",
+    imgPath: import.meta.env.BASE_URL + "/images/logos/git.svg",
   },
 ];
 
 const techStackIcons = [
   {
     name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
+    modelPath: import.meta.env.BASE_URL + "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
     name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
+    modelPath: import.meta.env.BASE_URL + "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
     name: "Backend Developer",
-    modelPath: "/models/node-transformed.glb",
+    modelPath: import.meta.env.BASE_URL + "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
     name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
+    modelPath: import.meta.env.BASE_URL + "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
     name: "Project Manager",
-    modelPath: "/models/git-svg-transformed.glb",
+    modelPath: import.meta.env.BASE_URL + "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
   },
@@ -109,7 +127,7 @@ const expCards = [
   {
     review:
       "Working as a freelance frontend developer has been a transformative experience. It gave me real-world exposure to client expectations, agile collaboration, and the importance of writing scalable UI code.",
-    logoPath: "/images/laptop.png",
+    logoPath: import.meta.env.BASE_URL + "/images/laptop.png",
     title: "Frontend Developer (Freelance) – Kivlik Technologies Inc",
     date: "April 2023 - Present",
     responsibilities: [
@@ -121,7 +139,7 @@ const expCards = [
   {
     review:
       "Building CropChain helped me understand the full lifecycle of product development — from API design and authentication to OCR-based features. It pushed me to architect scalable solutions in a real-world context.",
-    logoPath: "/images/plant.png",
+    logoPath: import.meta.env.BASE_URL + "/images/plant.png",
     title: "Full Stack Developer – CropChain Project",
     date: "2024 (Academic + Personal Project)",
     responsibilities: [
@@ -133,7 +151,7 @@ const expCards = [
   {
     review:
       "College was where I built my core technical foundation and explored various technologies through hands-on learning. Organizing the Concurso tech fest was a major milestone that strengthened my leadership, collaboration, and problem-solving skills while giving me real exposure to event planning and team dynamics.",
-    logoPath: "/images/education.png",
+    logoPath: import.meta.env.BASE_URL + "/images/education.png",
     title: "Bachelor of Computer Applications – Kannur University",
     date: "2022 - 2025",
     responsibilities: [
@@ -147,17 +165,17 @@ const expCards = [
 const socialImgs = [
   {
     name: "github",
-    imgPath: "/images/github.png",
+    imgPath: import.meta.env.BASE_URL + "/images/github.png",
     link: "https://github.com/aakamshpm",
   },
   {
     name: "x",
-    imgPath: "/images/x.png",
+    imgPath: import.meta.env.BASE_URL + "/images/x.png",
     link: "https://x.com",
   },
   {
     name: "linkedin",
-    imgPath: "/images/linkedin.png",
+    imgPath: import.meta.env.BASE_URL + "/images/linkedin.png",
     link: "https://linkedin.com/in/aakamshpm",
   },
 ];
